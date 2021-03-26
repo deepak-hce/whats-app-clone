@@ -21,7 +21,7 @@ function App() {
               <div className="header">
                 <div className="profile-pic">
                   <img
-                    src={process.env.PUBLIC_URL + "assets/img/profile.png"}
+                    src={process.env.PUBLIC_URL + "/assets/img/profile.png"}
                     alt="Profile"
                   />
                 </div>
@@ -68,7 +68,7 @@ function App() {
             <div className="chat-box">
               <div className="qr-code">
                 <img
-                  src={process.env.PUBLIC_URL + "assets/img/qr.png"}
+                  src={process.env.PUBLIC_URL + "/assets/img/qr.png"}
                   alt="Profile"
                 />
                 <div className="signed-checkbox">
